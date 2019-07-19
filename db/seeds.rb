@@ -11,7 +11,7 @@ require 'rest-client'
 #get brewery data
 array = []
 i = 0
-page = 8029
+page = 20
 
 while i < page do
   response = RestClient.get("https://api.openbrewerydb.org/breweries/#{i+1}")
@@ -21,6 +21,7 @@ while i < page do
     i += 1
 
 end
+
 
 brewery_data = array.flatten
 

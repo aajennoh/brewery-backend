@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 2019_07_15_194639) do
     t.string "website_url"
     t.string "longitude"
     t.string "latitude"
+    t.integer "likes", default: 0
+    t.integer "dislikes", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
