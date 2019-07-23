@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get '/favorite/:id/brewery/:brewery_id', to: 'users#favorite'
 
   get "/auto_login", to: "auth#auto_login"
-  get '/brewery/:id/like', to: 'articles#like'
-  get '/brewery/:id/dislike', to: 'articles#dislike'
-  get '/brewery/most_liked', to: 'articles#most_liked'
+  get '/brewery/:id/likes', to: 'breweries#likes'
+  get '/brewery/:id/dislikes', to: 'breweries#dislikes'
+  get '/breweries/most_liked', to: 'breweries#most_liked'
 end
