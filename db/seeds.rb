@@ -11,7 +11,7 @@ require 'rest-client'
 #get brewery data
 array = []
 i = 0
-page = 20
+page = 400
 
 while i < page do
   response = RestClient.get("https://api.openbrewerydb.org/breweries/#{i+1}")
