@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2019_07_15_194639) do
     t.string "postal_code"
     t.string "phone"
     t.string "website_url"
+    t.string "image_url"
     t.string "longitude"
     t.string "latitude"
     t.integer "likes", default: 0

@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get '/brewery/:id/likes', to: 'breweries#likes'
   get '/brewery/:id/dislikes', to: 'breweries#dislikes'
   get '/breweries/most_liked', to: 'breweries#most_liked'
+  get '/breweries/get_page/:page', to: 'breweries#get_page'
 end

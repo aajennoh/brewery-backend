@@ -1,6 +1,12 @@
 class BreweriesController < ApplicationController
-  def index
-    @breweries = Brewery.all
+
+  # def index
+  #   @breweries = Brewery.all
+  #   render json: @breweries
+  # end
+
+  def get_page
+    @breweries = Brewery.paginate(page: params[:page], per_page: 20)
     render json: @breweries
   end
 
@@ -23,7 +29,8 @@ class BreweriesController < ApplicationController
   end
 
   def most_liked
-      @breweries = Brewery.all.sort{ |a, b| b.likes <=> a.likes }
+      # @breweries = Brewery.all.sort{ |a, b| b.likes <=> a.likes }
+      @breweries = Brewery.reorder("likes DESC").page(params[:page]).per_page(20)
       render json: @breweries
   end
 

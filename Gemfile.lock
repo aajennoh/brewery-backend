@@ -60,6 +60,8 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.8.0)
+    faker (1.9.6)
+      i18n (>= 0.7)
     ffi (1.11.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -153,6 +155,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    will_paginate (3.1.7)
 
 PLATFORMS
   ruby
@@ -162,6 +165,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   byebug
+  faker (~> 1.9, >= 1.9.6)
   jwt
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
@@ -172,6 +176,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+  will_paginate (~> 3.1.0)
 
 RUBY VERSION
    ruby 2.6.1p33
