@@ -1,10 +1,10 @@
 class BreweriesController < ApplicationController
 
-  def index
+  def get_page
     @breweries = Brewery.paginate(page: params[:page], per_page: 20)
     render json: @breweries
   end
-  
+
   def get_state
     # @breweries = Brewery.select{|brewery| brewery.state === params[:state]}
     @breweries = Brewery.where(:state => params[:state]).paginate(:page => params[:page], per_page: 20)
