@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get '/breweries/most_liked', to: 'breweries#most_liked'
   get '/breweries/get_page/:page', to: 'breweries#get_page'
   get '/breweries/get_state/:state/:page', to: 'breweries#get_state'
+  post '/breweries/find_brewery', to: 'breweries#find_brewery'
+  get 'breweries/get_location', to: 'breweries#get_location'
 end

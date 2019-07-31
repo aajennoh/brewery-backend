@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'rest-client'
-require 'faker'
+# require 'faker'
 # require 'pry'
 
 #get brewery data
@@ -56,7 +56,25 @@ brewery_images = [
 "https://images.unsplash.com/photo-1528589343425-8762218e468a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=1000",
 "https://images.unsplash.com/photo-1532382473729-3c77e06b3e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=1000",
 "https://images.unsplash.com/photo-1549133445-092ae9c969c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=1000",
-"https://images.unsplash.com/photo-1526732779586-14c73df166b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=1000"]
+"https://images.unsplash.com/photo-1526732779586-14c73df166b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=1000",
+"https://images.unsplash.com/photo-1523903716430-8b05cc1ce968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1532634803-517b492a0703?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1545287073-d14fafabba38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1561414486-d37aba059a4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1530037335614-e68828dcf258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1521794710098-57fd82e2a715?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1547122719-ebf42306abd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1554128601-55ac8c4ffddd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1532635255-888592aa2f30?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1553190249-493a962b9bd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1527604513203-59bf6147d70f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1554127949-49a1f7443d04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1522057306606-8d84daa75e87?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1554127946-444cc0f3d0e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1559600279-23b5cc415412?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1554128535-06b54be7911f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=800&q=60",
+"https://images.unsplash.com/photo-1552590635-257736c7474a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+]
 
 
 
